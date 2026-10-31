@@ -1,9 +1,25 @@
-# ai-factor-lab
+<h1 align="center">ai-factor-lab</h1>
 
-一套让 AI 做因子研究**可审计**的操作系统——账本、预注册、阳性对照，外加一个
-能完整跑通的合成平台。
+<p align="center">
+  一套让 AI 做因子研究<strong>可审计</strong>的操作系统——<br>
+  账本、预注册、阳性对照，外加一个能完整跑通的合成平台。
+</p>
 
-> English: [README.md](README.md)
+<p align="center">
+  <a href="https://github.com/Joe-rq/ai-factor-lab/actions/workflows/ci.yml"><img alt="ci" src="https://img.shields.io/github/actions/workflow/status/Joe-rq/ai-factor-lab/ci.yml?branch=main&amp;style=flat-square&amp;label=ci"></a>
+  <a href="LICENSE"><img alt="license: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square"></a>
+  <img alt="python 3.11+" src="https://img.shields.io/badge/python-3.11%2B-blue?style=flat-square">
+  <img alt="runtime dependencies: 0" src="https://img.shields.io/badge/runtime%20deps-0-brightgreen?style=flat-square">
+  <img alt="platform integration: none" src="https://img.shields.io/badge/platform%20integration-none-lightgrey?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="#快速开始">快速开始</a> ·
+  <a href="#核心概念">核心概念</a> ·
+  <a href="docs/">文档</a> ·
+  <a href="docs/case-study.md">案例研究</a> ·
+  <a href="README.md">English</a>
+</p>
 
 ## 背景
 

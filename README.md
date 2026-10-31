@@ -1,8 +1,25 @@
-# ai-factor-lab
+<h1 align="center">ai-factor-lab</h1>
 
-An auditable research operating system for AI-assisted factor mining — ledger,
-preregistration, positive controls, and a synthetic platform you can run
-end-to-end.
+<p align="center">
+  An auditable research operating system for AI-assisted factor mining —<br>
+  ledger, preregistration, positive controls, and a synthetic platform you can run end-to-end.
+</p>
+
+<p align="center">
+  <a href="https://github.com/Joe-rq/ai-factor-lab/actions/workflows/ci.yml"><img alt="ci" src="https://img.shields.io/github/actions/workflow/status/Joe-rq/ai-factor-lab/ci.yml?branch=main&amp;style=flat-square&amp;label=ci"></a>
+  <a href="LICENSE"><img alt="license: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square"></a>
+  <img alt="python 3.11+" src="https://img.shields.io/badge/python-3.11%2B-blue?style=flat-square">
+  <img alt="runtime dependencies: 0" src="https://img.shields.io/badge/runtime%20deps-0-brightgreen?style=flat-square">
+  <img alt="platform integration: none" src="https://img.shields.io/badge/platform%20integration-none-lightgrey?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="#quickstart">Quickstart</a> ·
+  <a href="#core-ideas">Core ideas</a> ·
+  <a href="docs/">Docs</a> ·
+  <a href="docs/case-study.md">Case study</a> ·
+  <a href="README.zh-CN.md">中文</a>
+</p>
 
 ## Context
 
