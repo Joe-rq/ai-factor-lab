@@ -140,6 +140,8 @@ uv run python scripts/check-hygiene.py
 证书图片位于 `docs/assets/worldquant-gold.png`，不含平台数据、账户信息或未遮盖的
 个人信息。
 
+![WorldQuant Challenge — Gold Level（2026），姓名已遮盖](docs/assets/worldquant-gold.png)
+
 ## 它是怎么造出来的
 
 生产版本更大，而且私有——因为它包含账户数据和活的平台适配层。本仓库是**围绕同一

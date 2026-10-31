@@ -152,6 +152,8 @@ repository.*
 The certificate image is `docs/assets/worldquant-gold.png`. It contains no
 platform data, account information, or unredacted personal details.
 
+![WorldQuant Challenge — Gold Level (2026), name redacted](docs/assets/worldquant-gold.png)
+
 ## How this was built
 
 The production system is larger and private because it contains account data
