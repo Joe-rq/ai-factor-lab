@@ -1,0 +1,23 @@
+main:
+  push:
+    - &ci
+      name: ci
+      runner:
+        cpus: 2
+      docker:
+        image: python:3.11
+      stages:
+        - name: install
+          script: python -m pip install --quiet uv && uv sync --group dev
+        - name: ruff-format
+          script: uv run ruff format --check .
+        - name: ruff-check
+          script: uv run ruff check .
+        - name: pytest
+          script: uv run pytest -n 2
+        - name: structure
+          script: uv run python scripts/check-structure.py
+        - name: hygiene
+          script: uv run python scripts/check-hygiene.py
+  pull_request:
+    - *ci
